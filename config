@@ -202,15 +202,18 @@ bar {
           background #222222 
         }
 }
+
+#Quit windows border
 for_window [class=".*"] border pixel 0
 
-
-#gaps inner 6
-#gaps outer 6
-#smart_borders on
+#Space between windows
+gaps inner 6
+gaps outer 6
+smart_borders on
 
 
 exec_always setxkbmap -layout latam
-
+exec feh --bg-fill /Pictures/wallpaper1.jpg
+exec picom -b
 
 
