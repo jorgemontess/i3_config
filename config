@@ -170,7 +170,7 @@ mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
 
         # Pressing left will shrink the window’s width.
-        # Pressing right will grow the window’s width.
+        # Pressing right will grow the window’s widt.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
           bindsym j resize shrink width 2 px or 2 ppt
@@ -204,16 +204,16 @@ bar {
 }
 
 #Quit windows border
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 3
 
 #Space between windows
 gaps inner 6
-gaps outer 6
+gaps outer 1
 smart_borders on
 
 
 exec_always setxkbmap -layout latam
-exec feh --bg-fill /Pictures/wallpaper1.jpg
+exec feh --bg-fill ~/Pictures/wallpaper3.jpg
 exec picom -b
 
 
