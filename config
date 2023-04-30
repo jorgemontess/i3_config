@@ -213,7 +213,7 @@ smart_borders on
 
 
 exec_always setxkbmap -layout latam
-exec feh --bg-scale ~/.config/i3/wallpapers/anime_paisaje2.jpg
+exec feh --bg-scale ~/.config/i3/wallpapers/one-punch-man.png &
 exec picom -b
 
 
