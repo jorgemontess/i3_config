@@ -53,7 +53,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # open browser
-bindsym $mod+b exec firefox
+bindsym $mod+b exec google-chrome
 
 # open file explorer
 bindsym $mod+e exec nautilus
@@ -238,5 +238,5 @@ smart_borders on
 
 
 exec_always setxkbmap -layout us
-exec feh --bg-scale ~/.config/i3/wallpapers/paisaje_oscuro.png &
+exec feh --bg-scale ~/.config/i3/wallpapers/wallpaper1.jpg &
 exec picom -b
