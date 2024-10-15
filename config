@@ -238,5 +238,5 @@ smart_borders on
 
 
 exec_always setxkbmap -layout us
-exec feh --bg-scale ~/.config/i3/wallpapers/wallpaper1.jpg &
+exec feh --bg-scale ~/.config/i3/wallpapers/night_landscape1.jpg &
 exec picom -b
