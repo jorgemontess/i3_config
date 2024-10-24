@@ -12,7 +12,7 @@
 
 #Window configuration
 
-
+exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/nice-blue-wallpaper.png &
 exec_always --no-startup-id xrandr -s 1920*1080
 set $mod Mod4
 
@@ -53,7 +53,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # open browser
-bindsym $mod+b exec google-chrome
+bindsym $mod+b exec firefox
 
 # open file explorer
 bindsym $mod+e exec nautilus
@@ -238,5 +238,5 @@ smart_borders on
 
 
 exec_always setxkbmap -layout us
-exec feh --bg-scale ~/.config/i3/wallpapers/night_landscape1.jpg &
+
 exec picom -b
