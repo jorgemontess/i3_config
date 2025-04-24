@@ -55,6 +55,10 @@ bindsym $mod+Return exec i3-sensible-terminal
 # open browser
 bindsym $mod+b exec firefox
 
+# open Obsidian
+bindsym $mod+o exec ~/Downloads/Obsidian-1.8.10.AppImage
+
+
 # open file explorer
 bindsym $mod+e exec nautilus
 
@@ -232,7 +236,7 @@ for_window [class=".*"] border pixel 3
 client.focused          #00c1ff #285577 #ffffff #2e9ef4   #76d7c4 
 
 #Space between windows
-gaps inner 6
+gaps inner 10
 gaps outer 0
 smart_borders on
 
