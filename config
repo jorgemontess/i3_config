@@ -55,6 +55,9 @@ bindsym $mod+Return exec i3-sensible-terminal
 # open browser
 bindsym $mod+b exec firefox
 
+# open rofi
+bindsym $mod+space exec rofi -show drun
+
 # open Obsidian
 bindsym $mod+o exec ~/Downloads/Obsidian-1.8.10.AppImage
 
@@ -117,7 +120,7 @@ bindsym $mod+x layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
