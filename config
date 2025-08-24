@@ -13,7 +13,7 @@
 #Window configuration
 
 exec --no-startup-id feh --bg-scale ~/.config/i3/wallpapers/pixelart_3.jpg &
-exec_always --no-startup-id xrandr -s 1920*1080
+exec_always --no-startup-id xrandr --output Virtual1 --mode 2560*1600
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
